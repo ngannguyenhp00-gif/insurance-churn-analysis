@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "header",
+  "position": {
+    "x": 20,
+    "y": 6,
+    "z": 0,
+    "width": 880,
+    "height": 78,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "1 in 6 policy terms is cancelled, mostly at renewal",
+                    "textStyle": {
+                      "fontSize": "18pt",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Churn is concentrated: clients in their first five years, single-line clients, tenants and New Brunswick drive most cancellations.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#595959"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

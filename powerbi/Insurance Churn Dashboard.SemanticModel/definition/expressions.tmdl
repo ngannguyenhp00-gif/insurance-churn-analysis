@@ -1,0 +1,5 @@
+expression DataFolder = "C:\Users\miang\Downloads\Project 1\insurance-churn-analysis\data\powerbi_public\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 83273435-0f52-4a2d-82fc-f5f026c0e168
+
+	annotation PBI_ResultType = Text
+

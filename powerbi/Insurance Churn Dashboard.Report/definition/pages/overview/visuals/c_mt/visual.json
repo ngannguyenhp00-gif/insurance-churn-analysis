@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "c_mt",
+  "position": {
+    "x": 770,
+    "y": 84,
+    "z": 0,
+    "width": 240,
+    "height": 102,
+    "tabOrder": 9
+  },
+  "visual": {
+    "visualType": "card",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Mid-term Cancel Rate"
+                }
+              },
+              "queryRef": "Policy Terms.Mid-term Cancel Rate",
+              "nativeQueryRef": "Mid-term Cancel Rate"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

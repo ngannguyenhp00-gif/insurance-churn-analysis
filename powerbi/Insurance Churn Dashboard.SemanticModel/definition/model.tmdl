@@ -1,0 +1,20 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["DataFolder","Policy Terms"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+ref table 'Policy Terms'
+ref table DateTableTemplate_0e273c30-9523-4c4b-8aa9-d51484c52032
+ref table LocalDateTable_f616698b-8524-407a-9d9b-006fe6d8f9c1
+
+ref cultureInfo en-US
+

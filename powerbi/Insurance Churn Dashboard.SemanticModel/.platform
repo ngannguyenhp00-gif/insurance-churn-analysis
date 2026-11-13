@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Insurance Churn Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e46e4986-1bd4-5fea-8044-661ddffc866c"
+  }
+}

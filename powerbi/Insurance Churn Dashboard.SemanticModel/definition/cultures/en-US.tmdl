@@ -1,0 +1,221 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "policy_terms.renewal_cancel_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Renewal Cancel Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "At renewal": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.midterm_cancel_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Mid-term Cancel Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Mid-term": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.carrier_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Carrier_Group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Carrier": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.province_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Province_Group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Province": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.churn_rate_100_terms": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Churn Rate (100+ terms)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Churn rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.lob_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "LOB_Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Product": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.tenure_band": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Tenure_Band"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Tenure": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.bundled": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Bundled"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Client type": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.highrisk_active_terms": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "High-Risk Active Terms"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "High-risk active terms": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "policy_terms.avg_risk_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Policy Terms",
+			          "ConceptualProperty": "Avg Risk Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Avg risk score": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

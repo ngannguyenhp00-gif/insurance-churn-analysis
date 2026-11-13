@@ -1,0 +1,7 @@
+# data stays local (the dashboard's anonymised data is embedded in the Power BI cache)
+data/
+.ipynb_checkpoints/
+__pycache__/
+# Power BI: publish the data cache so the dashboard opens with data; keep machine-specific settings local
+**/.pbi/*
+!**/.pbi/cache.abf

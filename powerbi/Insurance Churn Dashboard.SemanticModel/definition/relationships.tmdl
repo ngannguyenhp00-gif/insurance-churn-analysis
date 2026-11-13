@@ -1,0 +1,5 @@
+relationship c1550165-c9f7-43c9-94c5-89a11ef8aad2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Policy Terms'.Term_Start
+	toColumn: LocalDateTable_f616698b-8524-407a-9d9b-006fe6d8f9c1.Date
+

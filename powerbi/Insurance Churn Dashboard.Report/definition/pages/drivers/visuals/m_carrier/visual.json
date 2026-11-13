@@ -1,0 +1,142 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "m_carrier",
+  "position": {
+    "x": 20,
+    "y": 100,
+    "z": 0,
+    "height": 350,
+    "width": 760,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Province_Group"
+                }
+              },
+              "queryRef": "Policy Terms.Province_Group",
+              "nativeQueryRef": "Province_Group",
+              "active": true,
+              "displayName": "Province"
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Carrier_Group"
+                }
+              },
+              "queryRef": "Policy Terms.Carrier_Group",
+              "nativeQueryRef": "Carrier_Group",
+              "active": true,
+              "displayName": "Carrier"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Churn Rate (100+ terms)"
+                }
+              },
+              "queryRef": "Policy Terms.Churn Rate (100+ terms)",
+              "nativeQueryRef": "Churn Rate (100+ terms)",
+              "displayName": "Churn rate"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Policy Terms"
+                        }
+                      },
+                      "Property": "Heat Color"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "Policy Terms.Churn Rate (100+ terms)"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Carrier 65575 stands out in AB and NB (shaded: 25%+ churn, blank: under 100 terms)'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

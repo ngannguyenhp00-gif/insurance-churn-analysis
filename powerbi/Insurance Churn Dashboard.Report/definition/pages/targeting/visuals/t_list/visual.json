@@ -1,0 +1,175 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "t_list",
+  "position": {
+    "x": 20,
+    "y": 470,
+    "z": 0,
+    "height": 240,
+    "width": 1240,
+    "tabOrder": 12
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Carrier_Group"
+                }
+              },
+              "queryRef": "Policy Terms.Carrier_Group",
+              "nativeQueryRef": "Carrier_Group",
+              "displayName": "Carrier"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Province_Group"
+                }
+              },
+              "queryRef": "Policy Terms.Province_Group",
+              "nativeQueryRef": "Province_Group",
+              "displayName": "Province"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "LOB_Name"
+                }
+              },
+              "queryRef": "Policy Terms.LOB_Name",
+              "nativeQueryRef": "LOB_Name",
+              "displayName": "Product"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Tenure_Band"
+                }
+              },
+              "queryRef": "Policy Terms.Tenure_Band",
+              "nativeQueryRef": "Tenure_Band",
+              "displayName": "Tenure"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Bundled"
+                }
+              },
+              "queryRef": "Policy Terms.Bundled",
+              "nativeQueryRef": "Bundled",
+              "displayName": "Client type"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "High-Risk Active Terms"
+                }
+              },
+              "queryRef": "Policy Terms.High-Risk Active Terms",
+              "nativeQueryRef": "High-Risk Active Terms",
+              "displayName": "High-risk active terms"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Policy Terms"
+                    }
+                  },
+                  "Property": "Avg Risk Score"
+                }
+              },
+              "queryRef": "Policy Terms.Avg Risk Score",
+              "nativeQueryRef": "Avg Risk Score",
+              "displayName": "Avg risk score"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Policy Terms"
+                  }
+                },
+                "Property": "High-Risk Active Terms"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Call list: where the High-risk active policies are'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
